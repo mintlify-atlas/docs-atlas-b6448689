@@ -1,0 +1,121 @@
+{
+  "projectType": "framework",
+  "projectName": "Agent Swarm",
+  "projectDescription": "Multi-agent orchestration framework for AI coding agents with lead/worker coordination, Docker isolation, and compounding memory.",
+  "theme": "aspen",
+  "primaryColor": "#040404",
+  "lightColor": "#cc8c10",
+  "darkColor": null,
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "installation"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "concepts/architecture",
+              "concepts/lead-worker-model",
+              "concepts/task-lifecycle",
+              "concepts/memory-system",
+              "concepts/agent-identity",
+              "concepts/hooks"
+            ]
+          },
+          {
+            "group": "Guides",
+            "pages": [
+              "guides/deployment",
+              "guides/integrations",
+              "guides/slack-integration",
+              "guides/github-integration",
+              "guides/agentmail-integration",
+              "guides/dashboard",
+              "guides/docker-setup"
+            ]
+          },
+          {
+            "group": "Development",
+            "pages": [
+              "development/contributing",
+              "development/project-structure",
+              "development/testing",
+              "development/environment-variables"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "MCP Tools",
+            "pages": [
+              "api/overview",
+              "api/core-tools",
+              "api/task-tools",
+              "api/messaging-tools",
+              "api/memory-tools",
+              "api/scheduling-tools",
+              "api/service-tools"
+            ]
+          },
+          {
+            "group": "CLI Commands",
+            "pages": [
+              "cli/overview",
+              "cli/setup",
+              "cli/mcp",
+              "cli/worker",
+              "cli/lead"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Lead/Worker coordination with autonomous task distribution",
+    "Docker isolation for secure agent execution",
+    "Compounding memory system with automatic learning extraction",
+    "Persistent agent identity with evolving personality and expertise",
+    "Slack, GitHub, and Email integration for task creation",
+    "Hook system for session lifecycle management",
+    "Service discovery and inter-agent communication",
+    "Real-time dashboard for monitoring agent activity",
+    "Scheduled tasks with cron-based automation",
+    "MCP (Model Context Protocol) based tool system"
+  ],
+  "publicApiSurface": [
+    "join-swarm",
+    "poll-task",
+    "send-task",
+    "get-tasks",
+    "cancel-task",
+    "store-progress",
+    "my-agent-info",
+    "update-profile",
+    "memory-search",
+    "inject-learning",
+    "register-service",
+    "list-services",
+    "create-channel",
+    "post-message",
+    "read-messages",
+    "slack-reply",
+    "slack-post",
+    "inbox-delegate",
+    "create-schedule",
+    "list-schedules",
+    "task-action",
+    "context-history"
+  ]
+}
